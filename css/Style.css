@@ -1,0 +1,149 @@
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+    cursor: pointer !important;
+}
+.logo{
+    padding-top: 40%;
+}
+.logo img{
+    height: 120px;
+}
+.connect-btn-wrapper{
+padding-top: 42%;
+padding-bottom: 10%;
+
+
+}
+
+.btn-connect{
+    background: rgba(49, 163, 112, 0.05);
+    border: 1px solid #31a37040;
+    padding: 1.2% 6% 1.2% 6%;
+border-radius: 2px ;
+text-decoration: none;
+background: linear-gradient(270.08deg, #165338 0.08%, #31A370 99.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.btn-connect img{
+    padding-right: 10px;
+}
+
+.nav-link img{
+    padding-right: 10px;
+}
+
+.pt-22{
+    padding-left: 22%;
+}
+.side-social{
+    padding-top: 4%;
+    gap: 1.8rem;
+}
+.dflex{
+    display: flex;
+}
+
+.swap-box{
+    background: #161E1A;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 2%;
+    margin: auto;
+    justify-content: center;
+    position: absolute;
+    top: calc(50% - 200px/2);
+    left: 50%;
+    width: 100%;
+    max-width: 30%;
+}
+.swap-head{
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.input-main{
+    background: #333333;
+    border: 1px solid #4C4C4C;
+    padding: 3% 2% 2% 2%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+.input-sub a{
+    float: right;
+    color: #fff !important;
+}
+.input-sub input{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.swap-btn-wrap{
+    padding-top: 8%;
+}
+.btn-swap{
+    background: linear-gradient(93.68deg, #1FBE72 -2.01%, #159F5D 100.49%);
+    box-shadow: inset -8px -8px 16px rgb(0 0 0 / 15%);
+    padding: 2% 29% 2% 30%;
+    font-size: 19px;
+    width: max-content;
+}
+.swap-img{
+    padding-right: 5px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
+
+  .ct-1{
+    position: absolute;
+    z-index: 0;
+    /* left: 0; */
+    top: 0;
+    height: 68%;
+  }
+@media (max-width: 768px) {
+    .ct-1{
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px){
+.sidebar.toggled .pt-22 {
+    text-align: center;
+    padding: 0.75rem 1rem;
+   
+}
+
+.sidebar.toggled .sidebar-card {
+    text-align: center;
+ 
+    margin-right: 0rem;
+
+    
+}
+.sidebar.toggled .dflex{
+    display: inline;
+}
+.sidebar.toggled .dflex li{
+    padding: 1% 11% 6% 2%;
+}
+.sidebar.toggled .rights{
+    display: none;
+}
+}
+
