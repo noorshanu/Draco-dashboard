@@ -154,6 +154,54 @@ background-clip: text;
   .teno{
     padding-bottom: 5%;
   }
+
+
+  /*main*/
+  .btn-main1{
+    background: linear-gradient(93.59deg, #1FBE72 9.54%, rgba(31, 190, 114, 0.6) 100.52%);
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 1% 2% 1% 2%;
+  }
+.main-bg{
+    background-image: url(../img/draco.png);
+    background-position: center;
+    background-position-y: -126%;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+  .hero-main-box{
+    padding-top: 13%;
+    padding-bottom: 10%;
+  }
+  .hero-main-h1{
+   padding-top: 3%;
+   padding-bottom: 3%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+  }
+.hero-main-h4{
+    font-weight: 700;
+font-size: 32px;
+line-height: 128.52%;
+padding-right: 26%;
+
+
+color: rgba(255, 255, 255, 0.6);
+}
+.hero-main-box p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #B6B6B6;
+
+}
+
+  /*endmain*/
 @media (max-width: 768px) {
     .ct-1{
         display: none;
