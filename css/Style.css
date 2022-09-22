@@ -115,6 +115,25 @@ background-clip: text;
     top: 0;
     height: 68%;
   }
+
+  .hero-box{
+    background: linear-gradient(92.93deg, rgba(31, 190, 114, 0.1) -0.68%, rgba(26, 123, 77, 0.3) 100.97%);
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+  align-items: center;
+
+  }
+  .hero-sub{
+ align-items: center;
+  
+  }
+
+  .eth-box{
+    border: 1px solid;
+    padding: 5% 3% 4% 3%;
+    margin: 4%;
+  }
 @media (max-width: 768px) {
     .ct-1{
         display: none;
