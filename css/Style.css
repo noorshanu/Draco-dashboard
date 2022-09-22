@@ -134,6 +134,21 @@ background-clip: text;
     padding: 5% 3% 4% 3%;
     margin: 4%;
   }
+  .eth-buy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+
+  }
+  .eth-btn{
+    color: #1FBE72 !important;
+    font-size: 14px;
+    border: 1px solid  #1FBE72;
+    padding: 1% 3% 1% 3%;
+  }
+  .teno{
+    padding-bottom: 5%;
+  }
 @media (max-width: 768px) {
     .ct-1{
         display: none;
