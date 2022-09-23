@@ -160,6 +160,11 @@ background-clip: text;
   .hero-main{
     padding-bottom: 10%;
   }
+  .hero-social a{
+    padding-top: 8%;
+    margin-right: 1.75rem;
+
+  }
   .btn-main1{
     background: linear-gradient(93.59deg, #1FBE72 9.54%, rgba(31, 190, 114, 0.6) 100.52%);
     border-radius: 2px;
@@ -178,7 +183,7 @@ background-clip: text;
 .main-bg{
     background-image: url(../img/draco.png);
     background-position: center;
-    background-position-y: -126%;
+   
     background-size: auto;
     background-repeat: no-repeat;
 
@@ -214,6 +219,37 @@ color: #B6B6B6;
 }
 
   /*endmain*/
+
+  /*hero-sub*/
+  .hero-content{
+    background: linear-gradient(92.93deg, rgba(31, 190, 114, 0.1) -0.68%, rgba(26, 123, 77, 0.3) 100.97%);
+    padding: 6% 3% 5% 3%;
+    color: #fff;
+  }
+  .hero-content h1{
+    padding-bottom: 2%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .hero-content p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 155.02%;
+/* or 25px */
+
+text-align: center;
+
+color: #B8B8B8;
+  }
+  .pb-5{
+    padding-bottom: 5%;
+  }
+  .line1 img{
+    height: 3px;
+    width: 100%;
+  }
+  /*end*/
 @media (max-width: 768px) {
     .ct-1{
         display: none;
