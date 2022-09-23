@@ -333,7 +333,35 @@ text-align: center;
     .ct-1{
         display: none;
     }
+    .main-bg {
+      background-size: contain;
+  }
 
+  .hero-main-box-1 {
+    padding-top: 3%;
+}
+
+.hero-main-h1 {
+  padding-top: 0%;
+  padding-bottom: 2%;
+  font-weight: 600;
+  font-size: 33px;
+}
+
+.hero-main-h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.hero-content h1 {
+  font-size: 23px;
+}
+.road-head-img img{
+  width: 100%;
+
+}
+.roadmap .col-md-4 {
+  margin-bottom: 5%;
+}
 }
 
 @media (min-width: 768px){
