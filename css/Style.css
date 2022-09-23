@@ -157,6 +157,9 @@ background-clip: text;
 
 
   /*main*/
+  .hero-main{
+    padding-bottom: 10%;
+  }
   .btn-main1{
     background: linear-gradient(93.59deg, #1FBE72 9.54%, rgba(31, 190, 114, 0.6) 100.52%);
     border-radius: 2px;
