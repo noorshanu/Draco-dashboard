@@ -72,6 +72,7 @@ background-clip: text;
     justify-content: space-between;
     margin-bottom: 5%;
     margin-top: 5%;
+    border-radius: 4px;
 
 }
 .input-sub a{
@@ -465,13 +466,13 @@ color: #FFFFFF;
 
 .swap-box {
 
-
   padding: 4%;
   margin: auto;
   position: relative;
-  top: calc(50% - 200px/2);
-  left: -5%;
-  width: 93%;
+  top: 59%;
+  left: 0%;
+  width: 100%;
+  margin-top: 55%;
   max-width: 100%;
 }
 .btn-swap {
