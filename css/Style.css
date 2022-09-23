@@ -312,6 +312,17 @@ text-align: center;
   background: #161E1A;
     padding: 5% 1% 3%;
 }
+.roadmap-box ul li {
+  line-height: 35px;
+}
+.roadmap-box ul li::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1.5em;
+  margin-left: -1em;
+}
 
   /*end*/
 @media (max-width: 768px) {
