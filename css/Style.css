@@ -384,6 +384,38 @@ text-align: center;
 #myLinks{
   display: none;
 }
+.white{
+  color:#fff
+}
+.validate-btn{
+  padding: 1%;
+    border: 1px solid #1fbe72;
+    font-size: 13px;
+    margin-left: 13px;
+}
+.valid-hero{
+  justify-content: center;
+  gap: 2rem;
+}
+.valid-1{
+  font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+
+color: #FFFFFF;
+}
+.valid-2{
+  text-align: initial;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.valid-2 span{
+  font-weight: 900;
+}
   /*end*/
 @media (max-width: 768px) {
   .sidebar{
