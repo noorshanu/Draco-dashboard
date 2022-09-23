@@ -139,9 +139,9 @@
                     </div>
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <a class="btn btn-link d-md-none rounded-circle mr-3"  href="javascript:void(0);"  onclick="myFunction()">
                         <i class="fa fa-bars"></i>
-                    </button>
+                    </a>
 
                     <!-- Topbar Search -->
                     <form
@@ -170,6 +170,47 @@
                                 </li>
  
                     </ul> -->
+                    <div class="mob-nav" id="myLinks">
+                        <ul>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">
+                                    <img src="img/dash.png" alt="">
+                                    <span>Dashboard</span></a>
+                            </li>
+                
+                           
+                
+                            <!-- Nav Item - Pages Collapse Menu -->
+                            <li class="nav-item">
+                                <a class="nav-link " href="validate.html" 
+                                   >
+                                    <img src="img/valid.png" alt="">
+                                    <span>Validate</span>
+                                </a>
+                            
+                            </li>
+                            <!-- Divider -->
+                      
+                
+                
+                            <!-- Nav Item - Pages Collapse Menu -->
+                            <li class="nav-item">
+                                <a class="nav-link " href="swap.html" >
+                                    <img src="img/swap-8.png" alt="">
+                                     <span>Swap</span>
+                                </a>
+                       
+                            </li>
+                
+                            <!-- Nav Item - Charts -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="chart.html">
+                                    <img src="img/chart-8.png" alt="">
+                                    <span>Chart</span></a>
+                            </li>
+                        </ul>
+                    </div>
+            
 
                 </nav>
                 <!-- End of Topbar -->
@@ -419,7 +460,17 @@ eHive plans to open this opportunity up to the entire DeFi community through sha
             </div>
         </div>
     </div>
-
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

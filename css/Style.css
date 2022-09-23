@@ -55,7 +55,7 @@ background-clip: text;
     justify-content: center;
     position: absolute;
     top: calc(50% - 200px/2);
-    left: 50%;
+    left: 45%;
     width: 100%;
     max-width: 30%;
 }
@@ -328,8 +328,22 @@ text-align: center;
 .roadmap-box ul{
   padding-top: 5%;
 }
+.mob-nav{
+  position: absolute;
+    top: 104%;
+    background: #000;
+    width: 91%;
+    z-index: 2;
+    border-top: 1px solid;
+}
+#myLinks{
+  display: none;
+}
   /*end*/
 @media (max-width: 768px) {
+  .sidebar{
+    display: none;
+  }
     .ct-1{
         display: none;
     }
@@ -361,6 +375,25 @@ text-align: center;
 }
 .roadmap .col-md-4 {
   margin-bottom: 5%;
+}
+
+.swap-box {
+
+
+  padding: 4%;
+  margin: auto;
+  position: relative;
+  top: calc(50% - 200px/2);
+  left: -5%;
+  width: 93%;
+  max-width: 100%;
+}
+.btn-swap {
+
+
+  padding: 2% 16% 2% 30%;
+
+
 }
 }
 
