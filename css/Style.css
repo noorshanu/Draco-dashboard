@@ -133,11 +133,17 @@ background-clip: text;
     border: 1px solid;
     padding: 5% 3% 4% 3%;
     margin: 4%;
+    border-radius: 11px;
   }
   .eth-box-1{
     border: 1px solid #1FBE72;
-    padding: 5% 3% 4% 3%;
+    padding: 2% 3% 8% 3%;
     margin: 2%;
+    border-radius: 11px;
+  }
+  .eth-head-2{
+    padding-bottom: 2%;
+    color: #fff;
   }
   .eth-buy{
     display: flex;
@@ -154,7 +160,16 @@ background-clip: text;
   .teno{
     padding-bottom: 5%;
   }
-
+.sub-th-sub{
+  height: 31px;
+}
+.sub-th-sub p{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
 
   /*main*/
   .hero-main{
@@ -167,7 +182,7 @@ background-clip: text;
   }
   .btn-main1{
     background: linear-gradient(93.59deg, #1FBE72 9.54%, rgba(31, 190, 114, 0.6) 100.52%);
-    border-radius: 2px;
+    border-radius: 4px;
     font-size: 14px;
     padding: 1% 2% 1% 2%;
   }
