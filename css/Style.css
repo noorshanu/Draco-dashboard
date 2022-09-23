@@ -418,6 +418,15 @@ color: #FFFFFF;
 }
   /*end*/
 @media (max-width: 768px) {
+  .chart-img{
+    width: 100%;
+  }
+  .valid-1{
+    font-size: 15px;
+  }
+  .valid-2{
+    font-size: 15px;
+  }
   .sidebar{
     display: none;
   }
